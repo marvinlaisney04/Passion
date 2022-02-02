@@ -1,0 +1,29 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url('images/pexels-rodnae-productions-7915289.jpg');
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Video Games";
+    font-weight: bold;
+    font-size: normal;
+    src: local("/fonts/batman_forever/batmfa__.ttf") format("truetype"),
+           local("/fonts/batman_forever/batmfo__.ttf") format("truetype");
+   }
+
+h1{
+    font-family: "Video Games";
+}
+
+#light{
+    cursor:pointer;
+}
+
+ul{
+    padding: 0 2em 0 2em;
+    list-style: none;
+}
