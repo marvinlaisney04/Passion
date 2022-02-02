@@ -23,6 +23,10 @@ h1{
     cursor:pointer;
 }
 
+.tuile li{
+    margin-bottom: 10px;
+}
+
 ul{
     padding: 0 2em 0 2em;
     list-style: none;
