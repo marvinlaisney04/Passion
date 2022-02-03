@@ -7,6 +7,12 @@ body{
     background-size: cover;
 }
 
+@media only screen and (min-width : 769) {
+    ul.tuile{
+        justify-content: center !important;
+    }
+} 
+
 @font-face {
     font-family: "Video Games";
     font-weight: bold;
@@ -29,6 +35,7 @@ h1{
 
 .tuile li img{
     width: 100%;
+    border-radius: 10%;
 }
 
 ul{
@@ -36,14 +43,12 @@ ul{
     list-style: none;
 }
 
-q{
+h1, aside{
     text-align: justify;
 }
 
-/* footer {
-    position:absolute;
-    width: 100%;
-    bottom:0;
+/* aside p{
+    display: block;
 } */
 
 /* Gérer les medias queries pour adapter les jaquettes en fonction du size screen */

@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Real gamer passion</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
@@ -26,7 +27,14 @@
             <a class="nav-link" href="mangas.html">Mangas</a>
           </li>
         </ul>
-        <img id="light" src="images/jour-et-nuit.png" alt="Mode Thème" title="Changer le thème" />
+        <ul class="navbar-nav col-1 d-flex justify-content-between align-items-center">
+          <li class="nav-item col-2">
+            <img id="light" src="images/jour-et-nuit.png" alt="Mode Thème" title="Changer le thème" />
+          </li>
+          <li class="nav-item col-2">
+            <i id="bgcolor" class="bi bi-palette" style="font-size: 32px;"></i>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -36,31 +44,31 @@
 
       <section class="row d-flex flew-row flex-wrap m-4">
 
-        <!-- <h1 class="text-center mb-5 p-2">Bienvenue sur <em>Real Passion Gamer</em></h1> -->
-
-        <article class="col-8">
+        <article class="col-lg-8 col-sm-12 order-2">
           
-            <ul class="tuile d-flex flex-row justify-content-between flex-wrap">
-              <li class="col-2"><img src="images/tuile-amongus.jpg" alt="Among Us" title="Among Us" /></li>
-              <li class="col-2"><img src="images/tuile-arceus.jpg" alt="Pokemon Legend Arceus" /></li>
-              <li class="col-2"><img src="images/tuile-ds3.jpg" alt="Dark Souls 3" /></li></li>
+            <ul class="tuile col-md-12 d-flex flex-row justify-content-between flex-wrap">
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-amongus.jpg" alt="Among Us" title="Among Us" /></li>
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-arceus.jpg" alt="Pokemon Legend Arceus" title="Pokémon Legend Arceus" /></li>
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-ds3.jpg" alt="Dark Souls 3" title="Dark Souls 3"/></li></li>
             </ul>
     
-            <ul class="tuile d-flex flex-row justify-content-between flex-wrap">
-              <li class="col-2"><img src="images/tuile-league-of-legends.jpg" alt="League of Legends" title="League of Legends"/></li>
-              <li class="col-2"><img src="images/tuile-mhw.jpg" alt="Monster Hunter World" tutle="Monster Hunter World"/></li>
-              <li class="col-2"><img src="images/tuile-rocketleague.jpg" alt="Rocket League" title="Rocket League" /></li>
+            <ul class="tuile col-md-12 d-flex flex-row justify-content-between flex-wrap">
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-league-of-legends.jpg" alt="League of Legends" title="League of Legends"/></li>
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-mhw.jpg" alt="Monster Hunter World" title="Monster Hunter World"/></li>
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-rocketleague.jpg" alt="Rocket League" title="Rocket League" /></li>
             </ul>
     
-            <ul class="tuile d-flex flex-row justify-content-between flex-wrap">
-              <li class="col-2"><img src="images/tuile-witcher3.jpg" alt="The WItcher 3" title="The Witcher 3" /></li>
-              <li class="col-2"><img src="images/tuile-zelda.jpg" alt="The Legend Of Zelda Breath of the Wild" title="The Legend Of Zelda Breath of the Wild" /></li>
-              <li class="col-2"><img src="images/tuile-skyrim.jpg" alt="Skyrim" title="The Elder Scrolls V Skyrim" /></li>
+            <ul class="tuile col-md-12 d-flex flex-row justify-content-between flex-wrap">
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-witcher3.jpg" alt="The WItcher 3" title="The Witcher 3" /></li>
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-zelda.jpg" alt="The Legend Of Zelda Breath of the Wild" title="The Legend Of Zelda Breath of the Wild" /></li>
+              <li class="col-lg-2 col-md-3"><img src="images/tuile-skyrim.jpg" alt="Skyrim" title="The Elder Scrolls V Skyrim" /></li>
             </ul>
             
           </article>
     
-          <aside class="col">
+          <aside class="col-lg-4 col-sm-12 order-1">
+
+            <h3 class="text-center mb-5">Passion du jeu-vidéo</h3>
             <q>
               Selon la définition que l'on accepte du jeu vidéo, son histoire peut commencer aux alentours de 1950 avec l'idée de Ralph Baer[Laquelle ?] ou bien en 1952 avec OXO, 
               1958 avec Tennis for Two de William Higinbotham, ou encore en 1962 avec Spacewar!, qui est la date la plus communément admise. 
@@ -69,8 +77,10 @@
               jusqu'en 1983 où elle subit un krach qui la fait migrer vers le Japon. C'est là qu'elle voit sa renaissance, notamment grâce à la console NES de Nintendo et au jeu Super Mario Bros. 
               en 1985, qui inaugure une nouvelle philosophie dans la conception des jeux vidéo : plus riches et ouverts à tous les publics.
               Depuis, le secteur du jeu vidéo est en croissance continue et, à partir de 2002, son chiffre d'affaires mondial atteint 10 G$, dépassant celui d'Hollywood1.
-              Parmi les personnages emblématiques du jeu vidéo, peuvent être cités : Alex Kidd, Crash Bandicoot, Donkey Kong, Kirby, Lara Croft, Link, Mario, Mega Man, Pac-Man, Pikachu, Rayman, Samus Aran, Solid Snake, Sonic2. 
+              Parmi les personnages emblématiques du jeu vidéo, peuvent être cités : Alex Kidd, Crash Bandicoot, Donkey Kong, Kirby, Lara Croft, Link, Mario, Mega Man, Pac-Man, Pikachu, Rayman, Samus Aran, Solid Snake, Sonic2. - Wikipédia. 
             </q>
+
+            <p class="mt-2">La source vient de WIkipédia, je ne me suis pas trop foulée pour faire l'historique du jeu-vidéo. Sur la droite, vous pouvez constater quels sont les jeux-vidéos qui m'ont marqués ou ceux auxquels je joue en ce moment !</p>
           </aside>
 
       </section>
@@ -79,7 +89,7 @@
   </div>
 
   <!-- Footer -->
-<footer class="bg-light text-center">
+<footer class="text-center bg-light">
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
