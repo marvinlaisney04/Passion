@@ -27,7 +27,23 @@ h1{
     margin-bottom: 10px;
 }
 
+.tuile li img{
+    width: 100%;
+}
+
 ul{
     padding: 0 2em 0 2em;
     list-style: none;
 }
+
+q{
+    text-align: justify;
+}
+
+/* footer {
+    position:absolute;
+    width: 100%;
+    bottom:0;
+} */
+
+/* Gérer les medias queries pour adapter les jaquettes en fonction du size screen */
