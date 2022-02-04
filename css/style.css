@@ -1,0 +1,45 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url('../images/pexels-rodnae-productions-7915289.jpg');
+    background-size: cover;
+}
+
+@media only screen and (min-width : 769) {
+    ul.tuile{
+        justify-content: center !important;
+    }
+} 
+
+
+h3{
+    font-family: 'Creepster', cursive;
+}
+
+#light, #bgcolor{
+    cursor:pointer;
+}
+
+#themeValue{
+    display: none;
+}
+
+.tuile li{
+    margin-bottom: 10px;
+}
+
+.tuile li img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+ul{
+    padding: 0 2em 0 2em;
+    list-style: none;
+}
+
+h1, aside{
+    text-align: justify;
+}

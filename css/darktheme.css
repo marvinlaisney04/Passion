@@ -1,0 +1,21 @@
+nav{
+    background-color: #33383d;
+}
+
+nav a{
+    color:white !important;
+}
+
+.content{
+    background-color: #33383d;
+    color: white;
+}
+
+footer{
+    background-color: #33383d;
+}
+
+.btn-social-media, .btn-social-media i, i#bgcolor{
+    border-color: white;
+    color: white;
+}
