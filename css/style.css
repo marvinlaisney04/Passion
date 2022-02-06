@@ -5,6 +5,13 @@ html{
 body{
     background-image: url('../images/pexels-rodnae-productions-7915289.jpg');
     background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1;
 }
 
 @media only screen and (min-width : 769) {
@@ -41,4 +48,9 @@ ul{
 
 h1, aside{
     text-align: justify;
+}
+
+#carouselMangas img{
+    width: 100%;
+    border-radius: 5%;
 }
