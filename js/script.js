@@ -26,7 +26,7 @@ $(document).ready ( function () {
     // Changement du fond de couleur
     function setBackground(isBackgroundImageActivated){
         if(isBackgroundImageActivated == 0){
-            $('body').css({ "background-image": "url('images/pexels-rodnae-productions-7915289.jpg", "background-size": "cover" });
+            $('body').css({ "background-color": "transparent", "background-image": "url('images/pexels-rodnae-productions-7915289.jpg", "background-size": "cover" });
         }
         else{
             $('body').css({ "background-image": "none" });
