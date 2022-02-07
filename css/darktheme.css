@@ -24,7 +24,7 @@ nav .navbar-toggler-icon {
     background-color: #454b50;
 }
 
-input[type=text], textarea#inputComment{
+input[type=text], input[placeholder]:focus, textarea#inputComment{
     background-color: #454b50;;
     color: white;
 }

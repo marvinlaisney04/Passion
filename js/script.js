@@ -51,12 +51,14 @@ $(document).ready ( function () {
             $('section').removeClass('align-items-center');
         }
     
-        if ($(this).width() < 768) {
+        if ($(this).width() < 1000) {
             $('.tuile').removeClass('justify-content-between');
             $('.tuile').addClass('justify-content-center');
+            $('#navbarSupportedContent').children().eq(1).removeClass('align-items-center');
         }else{
             $('.tuile').removeClass('justify-content-center');
             $('.tuile').addClass('justify-content-between');
+            $('#navbarSupportedContent').children().eq(1).addClass('align-items-center');
         }
     }
     
