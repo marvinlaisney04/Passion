@@ -3,8 +3,6 @@ html{
 }
 
 body{
-    background-image: url('../images/pexels-rodnae-productions-7915289.jpg');
-    background-size: cover;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -24,7 +22,7 @@ h3{
     font-family: 'Creepster', cursive;
 }
 
-#light, #bgcolor{
+#light, #bgcolor, #bgImage{
     cursor:pointer;
 }
 
