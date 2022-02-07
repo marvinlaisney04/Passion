@@ -1,15 +1,17 @@
 $(document).ready ( function () {
-    let theme;
     let cssCharge = { 
         0 : '<link id="theme" rel="stylesheet" href="css/lighttheme.css" type="text/css" />', 
         1 : '<link id="theme" rel="stylesheet" href="css/darktheme.css" type="text/css" />'
      };
 
     if(!sessionStorage.getItem("theme")){
-        theme = sessionStorage.setItem("theme", 0);
+        console.log('coucou');
+        sessionStorage.setItem("theme", 0);
     }else{
-        theme = sessionStorage.getItem("theme");
+        sessionStorage.getItem("theme");
     }
+
+    // $("form").clear();
 
     function swapTheme(themeVal){
         $('head #theme').remove();
@@ -48,7 +50,26 @@ $(document).ready ( function () {
         }
     });
 
-    swapTheme(theme);
+    $( "input.sendComment" ).on( "click", function() {
+        let firstName = $('#inputFirstName').val();
+        let lastName = $("#inputLastName").val();
+        let comment = $("#inputComment").val();
+
+        $('article.commentSpace').append(
+        "<div class='rounded commentaire p-2 mb-2'>" +
+        "<p>" + comment + "</p>" +
+        "<span class='fw-lighter'>" + firstName + " " + lastName + "<span>" +
+        "</div>"
+        );
+
+        $('form input[type=text], form textarea').val('');
+    });
+
+    $('#bgcolor').on( "click", function() {
+        $('#cokorPicker').click();
+    });
+
+    swapTheme(sessionStorage.getItem("theme"));
     $(window).on('resize', jqueryResize);
 
 });

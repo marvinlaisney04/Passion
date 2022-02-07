@@ -28,6 +28,10 @@ h3{
     cursor:pointer;
 }
 
+#colorPicker{
+    display: none;
+}
+
 #themeValue{
     display: none;
 }
@@ -46,7 +50,7 @@ ul{
     list-style: none;
 }
 
-h1, aside{
+h1, aside, .legend{
     text-align: justify;
 }
 

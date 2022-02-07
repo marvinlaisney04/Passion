@@ -38,6 +38,7 @@
             </li>
             <li class="nav-item col-2">
               <i id="bgcolor" class="bi bi-palette" style="font-size: 32px;"></i>
+              <input type="color" id="colorPicker" />
             </li>
           </ul>
         </div>
@@ -49,7 +50,7 @@
   <div class="main row justify-content-center">
     <div class="col-10 rounded content p-2 mt-5 mb-5">
 
-      <section class="row d-flex flex-row flex-wrap m-4">
+      <section class="row d-flex justify-content-center flex-row flex-wrap m-4">
 
         <article class="col-lg-8 col-sm-12 order-2">
           
@@ -91,6 +92,48 @@
           </aside>
 
       </section>
+
+      <hr />
+
+      <section class="row d-flex flex-row justify-content-center flex-wrap m-4">
+        <h3 class="text-center mb-4">Espace commentaires</h3>
+
+        <div class="col-8 legend">
+          <span class="row justify-content-center">Et vous ? Que pensez-vous de cette liste ? Dites-nous quels sont les jeux-vidéos qui vous ont marqué !</span>
+        </div>
+
+        <article class="col-8 commentSpace mt-4 mb-4">
+          <div class="rounded commentaire p-2 mb-4">
+            <p>Je suis d'accord avec toi !</p>
+            <span class="fw-lighter">Jean Charme</span>
+          </div>
+        </article>
+
+        <hr />
+
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <form class="d-flex flex-row justify-content-between flex-wrap">
+              <div class="col-lg-5 col-md-12 col-sm-12 form-group mb-3">
+                <label for="inputFirstName" class="form-label">Prénom</label>
+                <input type="text" id="inputFirstName" class="form-control" placeholder="Jean" />
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-12 form-group mb-3">
+                <label for="inputLastName" class="form-label">Prénom</label>
+                <input type="text" id="inputLastName" class="form-control" placeholder="Charme" />
+              </div>
+              <div class="col-12 form-group mb-3">
+                <label for="inputComment" class="form-label">Rédiger votre commentaire</label>
+                <textarea type="textarea" id="inputComment" class="form-control" placeholder="J'aime beauoup le jeu-vidéal." rows="3"></textarea>
+              </div>
+              <div class="col-12 text-center">
+                <input type="button" class="btn btn-primary sendComment" value="Envoyer" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
     </div>
 
   </div>
