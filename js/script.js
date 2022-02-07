@@ -51,7 +51,7 @@ $(document).ready ( function () {
             $('section').removeClass('align-items-center');
         }
     
-        if ($(this).width() < 1000) {
+        if ($(this).width() < 768) {
             $('.tuile').removeClass('justify-content-between');
             $('.tuile').addClass('justify-content-center');
             $('#navbarSupportedContent').children().eq(1).removeClass('align-items-center');
