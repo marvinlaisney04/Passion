@@ -12,7 +12,7 @@ body{
     flex: 1;
 }
 
-@media only screen and (min-width : 769) {
+@media only screen and (min-width : 769px) {
     ul.tuile{
         justify-content: center !important;
     }
