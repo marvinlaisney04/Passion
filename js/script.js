@@ -77,6 +77,7 @@ $(document).ready ( function () {
 
     // Ajout du commentaire au clique du bouton "Envoyer"
     $( "input.sendComment" ).on( "click", function() {
+        console.log("cc");
         $('.alert').remove();
 
         let firstName = $('#inputFirstName').val();
@@ -85,7 +86,7 @@ $(document).ready ( function () {
 
         if($('form input').val() && $('form textarea').val()){
             
-            $('article.commentSpace').append(
+            $('div.commentSpace').append(
             "<div class='rounded commentaire p-2 mb-2'>" +
             "<p>" + comment + "</p>" +
             "<span class='fw-lighter'>" + firstName + " " + lastName + "<span>" +
