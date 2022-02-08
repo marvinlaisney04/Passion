@@ -12,12 +12,6 @@ body{
     flex: 1;
 }
 
-@media only screen and (min-width : 769px) {
-    ul.tuile{
-        justify-content: center !important;
-    }
-} 
-
 h2{
     font-family: 'Creepster', cursive;
 }
