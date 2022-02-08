@@ -48,7 +48,7 @@ ul{
     list-style: none;
 }
 
-h2, aside, .legend{
+h2, section, .legend{
     text-align: justify;
 }
 
